@@ -1,0 +1,291 @@
+{
+    "main": {
+        "home":    "Inicio",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "skills": "Habilidades",
+        "language": "Idioma",
+        "contact": "Contacto",
+        "languages":{
+            "es":   "Español",
+            "en":   "Inglés",
+            "jp":   "Japonés"
+        }
+    },
+    "sumary":{
+        "main":     "Resumen",
+        "title":    "Hola, mi nombre es Darwin.",
+        "text":[
+                    "Soy Analista en Computación Científica y Licenciado en Ciencia de la Computación. ",
+                    "He trabajado como desarrollador de software en varios lenguajes y tecnologías. ",
+                    "Soy un entusiasta de las nuevas tecnologías ",
+                    "y áreas de la ciencia de la Computación como Inteligencia Artificial, Robótica, ",
+                    "Machine Learning e Ingeniería de Software."
+        ]
+    },
+    "info":{
+        "occupation": "Analista en Computación Científica",
+        "address":    "Calle Guillermo Franke #698, Estación Central. Santiago. Chile."
+    },
+    "contact":{
+        "title":    "Contacto",
+        "name":     "Nombre",
+        "email":    "Dirección de correo",
+        "msg":      "Mensaje",
+        "send":     "Enviar",
+        "mailHolder": "Ingresa corre",
+        "nameHolder": "Ingrese nombre",
+        "msgHolder": "Escriba su mensaje..."
+    },
+    "experience":{
+        "title":     "Experiencia",
+        "body":{
+            "exp1":{
+                "textPlace": "Departamento de Matemática y Ciencia de la Computación, Universidad de Santiago de Chile",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Profesor Ayudante, Arquitectura de Computadoras.",
+                "textDate":  "Ago 2011 - Dic 2012",
+                "textTasks": {
+                        "task1":    "Apoyo académico en clases.",
+                        "task2":    "Clases de ayudantía.",
+                        "task3":    "Apoyo en laboratorio."
+                }
+            },
+            "exp2":{
+                "textPlace": "Departamento de Matemática y Ciencia de la Computación, Universidad de Santiago de Chile.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Profesor Ayudante, Inteligencia Artificial.",
+                "textDate":  "Dec 2012 - May 2013",
+                "textTasks": {
+                        "task1":    "Profesor ayudante en laboratorio.",
+                        "task2":    "Apoyo en programación MATLAB."
+                }
+            },
+            "exp3":{
+                "textPlace": "LocalizaGPS, Servicios y Asesorías Tecnológicas.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Desarrollador.",
+                "textDate":  "Nov 2013 - Mar 2015",
+                "textTasks": {
+                        "task1":    "Programación Web php, ajax, javascript, jquery.",
+                        "task2":    "Manejo de base de datos PostgreSQL.",
+                        "task3":    "Manejo de sistema operativo Linux/Debian nivel intermedio.",
+                        "task4":    "Programación sobre dispositivos GPS y comunicación en lenguaje C.",
+                        "task5":    "Modelo, diseño e implementación de base de datos.",
+                        "task6":    "Manejo de framework MVC Codeigniter."
+                }
+            },
+            "exp4":{
+                "textPlace": "AXYS Technologies S.A.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Ingeniero de Desarollo",
+                "textDate":  "Abr 2015 - Dic 2015",
+                "textTasks": {
+                        "task1":    "Proyecto palas CORFO, BHP Billiton, CIA. Minera Cerro Colorado.",
+                        "task2":    "Proyecto Visamáticos, SERNAPESCA.",
+                        "task3":    "Aplicación Móvil para módulo de corte, TECHNET.",
+                        "task4":    "Desarrollo bajo ASP.NET",
+                        "task5":    "Manejo de base de datos SQL Server."
+                }
+            },
+            "exp5":{
+                "textPlace": "AGSA Inmobiliaria.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Desarrollador Freelance.",
+                "textDate":  "Mar 2016 - Ago 2016",
+                "textTasks": {
+                        "task1":    "Desarrollo de sistema de mantención de parcelas.",
+                        "task2":    " Desarrollo bajo lenguaje VB.NET.",
+                        "task3":    "Manejo de base de datos SQL Server."
+                }
+            },
+            "exp6":{
+                "textPlace": "TotalPack Ltda.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Desarrollador de Software.",
+                "textDate":  "Oct 2016 - Mar 2017",
+                "textTasks": {
+                        "task1":    "Desarrollo de sistemas para kioskos de autoservicio.",
+                        "task2":    "Desarrollo bajo lenguaje Visual Basic 6, VB.NET, C#.",
+                        "task3":    "Desarrollo bajo tecnología WPF.",
+                        "task4":    "Manejo de base de datos SQL Server."
+                }
+            },
+            "exp7":{
+                "textPlace": "Chilena Consolidada - Zurich Insurance Company Ltd.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Analista Desarrollador.",
+                "textDate":  "Jul 2017 - May 2018",
+                "textTasks": {
+                        "task1":    "Desarrollo de sistema \"Clientes Online\" bajo ASP.NET MVC.",
+                        "task2":    "Desarrollo bajo lenguaje VB.NET e integración LINQ.",
+                        "task3":    "Desarrollo bajo lenguaje javascript e integración Ajax y Jquery.",
+                        "task4":    "Manejo de base de datos SQL Server bajo T-SQL."
+                }
+            }
+        }
+    },
+    "education":{
+            "title":        "Educación",
+            "body":{
+                "edu1":{
+                    "institution":  "Universidad de Santiago de Chile",
+                    "grade":        "Licenciatura en Ciencia de la Computación",
+                    "city":         "Santiago, Chile",
+                    "year":         "2008 - 2017",
+                    "titles":{
+                        "degree":   "Grado Académico: Licenciado en Ciencia de la Computación.",
+                        "prof":     "Título Profesional: Analista en Computación Científica"
+                    }
+                },
+                "edu2":{
+                    "institution":  "Liceo Dario Salas A-N°16",
+                    "grade":        "Enseñanza Media Científico-Humanista",
+                    "city":         "Santiago, Chile",
+                    "year":         "2004 - 2005",
+                    "titles":{
+                    }
+                },
+                "edu3":{
+                    "institution": "Liceo Guillermo Feliu Cruz Ex A-71",
+                    "grade":       "Enseñanza Media Científico-Humanista",
+                    "city":        "Santiago, Chile",
+                    "year":         "2002 - 2003",
+                    "titles":{
+                    }
+                },
+                "edu4":{
+                    "institution": "Escuela José Antonio Lecaros",
+                    "grade":       "Enseñanza básica",
+                    "city":        "Santiago, Chile",
+                    "year":         "2000 - 2001",
+                    "titles":{
+                    }
+                },
+                "edu5":{
+                    "institution": "Escuela Lautaro",
+                    "grade":       "Enseñanza básica",
+                    "city":        "Concepción, Chile",
+                    "year":         "1996 - 1999",
+                    "titles":{
+                    }
+                },
+                "edu6":{
+                    "institution": "Escuela Pacto Andino D-261",
+                    "grade":       "Enseñanza básica",
+                    "city":        "Santiago, Chile",
+                    "year":         "1993 - 1995",
+                    "titles":{
+                    }
+                }
+            }
+    },
+    "skills":{
+        "title":    "Hablidades Técnicas",
+        "tabs":{
+            "pe":   {
+                "tabName":    "PE",
+                "title":      "Programación Estructurada",
+                "items":{
+                    "c":{
+                        "name":   "C",
+                        "perc":   "60%"
+                    },
+                    "shellScript":{
+                        "name":   "Shell Script",
+                        "perc":   "20%" 
+                    },
+                    "pl/sql":{
+                        "name":    "PL/SQL",
+                        "perc":    "50%"   
+                    }
+                }
+            },
+            "poo":{
+                "tabName":  "POO",
+                "title":    "Programación Orientada a Objetos",
+                "items":{
+                    "c++":{
+                        "name":    "C++",
+                        "perc":    "60%"
+                    },
+                    "php":{
+                        "name":    "php",
+                        "perc":    "60%"
+                    },
+                    "java":{
+                        "name":    "Java",
+                        "perc":    "40%"
+                    },
+                    "c#":{
+                        "name":    "C#",
+                        "perc":    "60%"
+                    },
+                    "vb":{
+                        "name":    "VB.NET",
+                        "perc":    "70%"
+                    },
+                    "js":{
+                        "name":    "Java Script",
+                        "perc":    "70%"
+                    }
+                }
+            },
+            "framework":{
+                "tabName":  "Framework",
+                "title":    "Framework.",
+                "items":{
+                    "codeigniter":{
+                        "name":     "Codeigniter",
+                        "perc":     "70%"
+                    },
+                    ".net":{
+                        "name":     ".NET",
+                        "perc":     "80%"
+                    },
+                    "angular":{
+                        "name":     "Angular",
+                        "perc":     "40%"
+                    }
+                }
+            },
+            "db":{
+                "tabName":  "Base de Datos",
+                "title":    "Base de Datos.",
+                "items":{
+                    "ora":{
+                        "name":     "Oracle",
+                        "perc":     "50%"
+                    },
+                    "mysql":{
+                        "name":     "MySql",
+                        "perc":     "40%"
+                    },
+                    "posg":{
+                        "name":     "PostgreSQL",
+                        "perc":     "60%"
+                    },
+                    "sqlsrv":{
+                        "name":     "SQL Server",
+                        "perc":     "80%"
+                    }
+                }
+            },
+            "ctrlver":{
+                "tabName":    "Control de Versiones",
+                "title":      "Control de Versiones",
+                "items":{
+                    "git":{
+                        "name":     "Git",
+                        "perc":     "40%"
+                    },
+                    "svn":{
+                        "name":     "Subversion",
+                        "perc":     "70%"
+                    }
+                }
+            }
+        }
+
+    }
+}

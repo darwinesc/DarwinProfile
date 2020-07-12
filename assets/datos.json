@@ -1,0 +1,92 @@
+{
+    "data":{
+      "name": "Darwin Escobar Matamala",
+      "birthday": "17/07/1987",
+      "phone":    "+56977645277",
+      "email":    "darwin.escobar@usach.cl"
+    },
+    "skills":{
+      "ep":{
+        "c":{
+          "per":  "60%",
+          "name": "C"  
+        },           
+        "shellScript":  {
+          "per":  "20%",
+          "name": "Shell Script"  
+        },
+        "pl/sql":{
+          "per":  "50%",
+          "name": "PL/SQL"  
+        }
+      },
+      "poo":{
+        "c++":          {
+          "per":  "60%",
+          "name": "C++"  
+        },
+        "php":{
+            "per":  "60%",
+            "name": "PHP"  
+          },
+        "java":{
+          "per":  "40%",
+          "name": "Java"  
+        },
+        "c#":{
+          "per":  "60%",
+          "name": "C#"  
+        },
+        "vb.net":{
+          "per":  "70%",
+          "name": "VB.NET"  
+        },
+        "javascript":{
+          "per":  "70%",
+          "name": "Javascript"  
+        }
+      },
+      "framework":{
+        "codeigniter":{
+          "per":  "70%",
+          "name": "Codeigniter"  
+        },
+        ".net":{
+          "per":  "80%",
+          "name": ".NET"  
+        },
+        "angular":{
+          "per":  "50%",
+          "name": "Angular"  
+        }
+      },
+      "bd":{
+        "oracle":{
+          "per":  "50%",
+          "name": "Oracle"  
+        },
+        "mysql":{
+          "per":  "40%",
+          "name": "MySQL"  
+        },
+        "postgresql":{
+          "per":  "60%",
+          "name": "PostgreSQL"  
+        },
+        "sqlserver":{
+          "per":  "80%",
+          "name": "SQL Server"  
+        },
+        "vercontrol":{
+          "git":{
+            "per":  "40%",
+            "name": "Git"
+          },
+          "svn":{
+            "per":  "70%",
+            "name": "Subversion"
+          }
+        }
+      }
+    }
+}
