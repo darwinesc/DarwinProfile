@@ -1,0 +1,22 @@
+<div class="mt-5 text-white bg-secondary py-4 px-4 rounded col-md-10">
+  <h1 class="mb-4"><i class="fa fa-graduation-cap"></i> {{'education.title' | translate}}</h1>
+  <hr color="white">
+  <div *ngFor="let edu of 'education.body' | translate | keyvalue" class="vtl">
+        <div class="row mb-1">
+          <div class="col-md-6 ewrap"><h4 class="mb-0">{{edu.value.institution | translate}}</h4></div>
+          <div class="col-md-3 offset-md-3"><h4>{{edu.value.city | translate}}</h4></div>
+        </div>
+        <div class="row mb-1">
+            <div class="col-md-5"><p class="text-italic">{{edu.value.grade | translate}}</p></div>
+            <div class="col-md-2 offset-md-4"><p class="text-italic"><span class="text-white">{{edu.value.year | translate}}</span></p></div>
+        </div>
+        <ul>
+          <div *ngFor="let item of edu.value.titles | keyvalue">
+              <li>
+                  {{item.value}}
+              </li>
+          </div>
+        </ul>
+  </div>  
+</div>
+  

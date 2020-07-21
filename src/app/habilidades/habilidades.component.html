@@ -1,0 +1,31 @@
+<div class="mt-5 text-white bg-secondary col-md-9 py-4 px-4">
+  <h2 class="mb-4"><i class="fa fa-laptop"></i> {{'skills.title' | translate}}</h2>
+  <ul class="nav nav-tabs nav-pills" id="myTab" role="tablist">
+    <li class="nav-item" *ngFor="let item of 'skills.tabs' | translate | keyvalue; let iTabHead = index">
+        <div *ngIf="iTabHead == 0; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock><a class="nav-link text-white active" id="home-tab" data-toggle="tab" href="#{{item.key}}" role="tab" aria-controls="home" aria-selected="true" (click)="animar();">{{item.value.tabName}}</a></ng-template>
+        <ng-template #elseBlock><a class="nav-link text-white" id="home-tab" data-toggle="tab" href="#{{item.key}}" role="tab" aria-controls="home" aria-selected="true" (click)="animar();">{{item.value.tabName}}</a></ng-template>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+        <div *ngFor="let item of 'skills.tabs' | translate | keyvalue; let iTabBody = index" class="tab-pane fade show" id="{{item.key}}" role="tabpanel" aria-labelledby="home-tab" [ngClass]="{'active show':iTabBody == 0}">
+            <h3 class="mt-3">{{item.value.title}}</h3> 
+            <div class="row mt-0">
+                <div *ngFor="let lan of item.value.items | keyvalue">
+                    <div class="col-md-2  text-center">
+                        <div class="col">
+                            <div *ngIf="iTabBody == 0; then thenBlock1 else elseBlock1"></div>
+                            <ng-template #thenBlock1>
+                                <circle-progress [animation]="true" [percent]='convertToNumber(lan.value.perc)'></circle-progress>
+                            </ng-template>
+                            <ng-template #elseBlock1>
+                                <circle-progress [animation]="false" [percent]='convertToNumber(lan.value.perc)'></circle-progress>
+                            </ng-template>
+                        </div>
+                        <h5>{{lan.value.name}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</div>

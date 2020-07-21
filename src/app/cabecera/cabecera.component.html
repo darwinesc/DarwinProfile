@@ -1,0 +1,36 @@
+<!--<ng-progress [direction] = "ltr+" [speed] = "200" [trickleSpeed ]="300" [debounceTime] = "0" [meteor]="true" [spinner]="true" [spinnerPosition]="right" [think]="false" [fixed]="true" [min]="8" [max]="100" [ease]="linear" [color]="red" (started)="onStarted" (completed)="onClompleted"></ng-progress>-->
+<ng-progress #progressBar></ng-progress>
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-grad">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/']">{{'main.home' | translate}} <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/experiencia']">{{'main.experience' | translate}}</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/educacion']">{{'main.education' | translate }}</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/habilidades']">{{'main.skills' | translate}}</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/contact']">{{'main.contact' | translate}}</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">{{'main.language' | translate}}</a>
+          <div class="dropdown-menu">
+            <div *ngFor="let item of 'main.languages' | translate | keyvalue">
+                <a class="dropdown-item" style="cursor: pointer;" (click)="changeLanguage(item.key)" >{{item.value}}</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>

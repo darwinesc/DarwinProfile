@@ -1,0 +1,22 @@
+<div class="mt-5 text-white bg-secondary col-md-10 py-3 px-3 rounded">
+  <h1 class="mb-4"><i class="fa fa-briefcase"></i> {{'experience.title' | translate}}</h1>
+  <hr color="white">
+  <div *ngFor="let exp of 'experience.body' | translate | keyvalue" class="vtl">
+      <div class="row">
+        <div class="col-md-10 ewrap"><h5 class="mb-0">{{exp.value.textPlace | translate}}</h5></div>
+        <div class="col-md-2"><h5>{{exp.value.textCity}}</h5></div>
+      </div>
+      <div class="row"> 
+          <div class="col-md-10"><p class="text-italic">{{exp.value.textOccup | translate}}</p></div>
+          <div class="col-md-2"><p class="text-italic"><span class="text-white">{{exp.value.textDate | translate}}</span></p></div>
+      </div>
+      <ul>
+        <div *ngFor="let task of exp.value.textTasks | keyvalue">
+            <li>
+                {{task.value}}
+            </li> 
+        </div>
+      </ul>
+  </div>
+</div>
+

@@ -1,0 +1,9 @@
+<app-cabecera></app-cabecera>
+<div class="container">
+  <main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+    <router-outlet #o="outlet"></router-outlet>
+  </main>
+  
+  <!--<app-footer></app-footer>-->
+
+</div>

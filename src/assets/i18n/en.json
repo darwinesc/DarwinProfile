@@ -1,0 +1,183 @@
+{
+    "main": {
+        "home":    "Home",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "language": "Language",
+        "contact": "Contact-us",
+        "languages":{
+            "es":   "Spanish",
+            "en":   "English",
+            "jp":   "Japanese"
+        }
+    },
+    "sumary": {
+        "main":     "About",
+        "title":    "Hello, My Name is Darwin.",
+        "text": [
+                    "I'm Analyst in Scientific Computing and ",
+                    "Bachelor in Computer Sciene. I've worked as software developer in many ",
+                    "languages and technologies. I'm a enthusiastic of the new technologies and ",
+                    "areas of computer science such as artificial inteligence, robotics, machine learning ",
+                    "and software engeeniring."
+                ]
+    },
+    "info":{
+        "occupation":   "Analyst in Scientific Computing",
+        "address":      "Guillermo Franke Street, Number 698, Santiago City, Chile."
+    },
+    "contact":{
+        "title":    "Contact-us",
+        "name":     "Name",
+        "email":    "Email address",
+        "msg":      "Message",
+        "send":     "Send",
+        "mailHolder": "Enter mail",
+        "nameHolder": "Enter name",
+        "msgHolder": "Write your message..."
+    },
+    "experience":{
+        "title":     "Experience",
+        "body":{
+            "exp1":{
+                "textPlace": "Department of Mathematics and Computer Science, University of Santiago",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Assisntant Theacher, Computer Architecture.",
+                "textDate":  "Aug 2011 - Dec 2012",
+                "textTasks": {
+                        "task1":    "Academic support in class.",
+                        "task2":    "Assistantship classes.",
+                        "task3":    "Support in laboratory."
+                }
+            },
+            "exp2":{
+                "textPlace": "Department of Mathematics and Computer Science, University of Santiago",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Assisntant Theacher, Artificial Intelligence.",
+                "textDate":  "Dec 2012 - May 2013",
+                "textTasks": {
+                        "task1":    "Assistant teacher in laboratory.",
+                        "task2":    "Support MATLAB Programming."
+                }
+            },
+            "exp3":{
+                "textPlace": "LocalizaGPS, Services and Technological Consultancies Ltd.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Software Developer.",
+                "textDate":  "Nov 2013 - Mar 2015",
+                "textTasks": {
+                        "task1":    "Web programming php, ajax, javascript, jquery.",
+                        "task2":    "Database on PostgreSQL.",
+                        "task3":    "Use of Linux/Debian operating system medium level.",
+                        "task4":    "Programming on GPS devices and comunication with C language.",
+                        "task5":    "Model, desing and implementation of database.",
+                        "task6":    "Framework MVC Codeigniter."
+                }
+            },
+            "exp4":{
+                "textPlace": "AXYS Technologies S.A.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Development Engineer",
+                "textDate":  "Abr 2015 - Dic 2015",
+                "textTasks": {
+                        "task1":    "\"Palas CORFO\" project, BHP Billiton, CIA. Cerro Colorado mining.",
+                        "task2":    "\"Visamáticos\" project, SERNAPESCA.",
+                        "task3":    "Mobile APP for electricity cut module, TECHNET.",
+                        "task4":    "Development on ASP.NET",
+                        "task5":    "Database SQL Server."
+                }
+            },
+            "exp5":{
+                "textPlace": "AGSA Inmobiliaria.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Full Stack Developer.",
+                "textDate":  "Mar 2016 - Aug 2016",
+                "textTasks": {
+                        "task1":    "Development of maintenance system.",
+                        "task2":    "VB.NET programming language.",
+                        "task3":    "Database SQL Server."
+                }
+            },
+            "exp6":{
+                "textPlace": "TotalPack Ltd.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Software Developer.",
+                "textDate":  "Oct 2016 - Mar 2017",
+                "textTasks": {
+                        "task1":    "Development on interective and self-service kiosk.",
+                        "task2":    "Development on Visual Basic 6, VB.NET, C#.",
+                        "task3":    "Development on WPF technology.",
+                        "task4":    "Database SQL Server."
+                }
+            },
+            "exp7":{
+                "textPlace": "Chilena Consolidada - Zurich Insurance Company Ltd.",
+                "textCity" : "Santiago, Chile",
+                "textOccup": "Analyst Developer.",
+                "textDate":  "Jul 2017 - May 2018",
+                "textTasks": {
+                        "task1":    "Development web system \"Clientes Online\" on ASP.NET MVC.",
+                        "task2":    "VB.NET programming and LINQ.",
+                        "task3":    "Development on javascript language and integration Ajax and Jquery.",
+                        "task4":    "Database SQL Server with T-SQL."
+                }
+            }
+        }
+    },
+    "education":{
+        "title":        "Education",
+        "body":{
+            "edu1":{
+                "institution":  "University of Santiago",
+                "grade":        "Computer Science",
+                "city":         "Santiago, Chile",
+                "year":         "2008 - 2017",
+                "titles":{
+                    "degree":   "Degree: Bachelor in Computer Science.",
+                    "prof":     "Title: Scientific Computing Analyst"
+                }
+            },
+            "edu2":{
+                "institution":  "Dario Salas A-N°16 Secondary School",
+                "grade":        "Secondary Education ",
+                "city":         "Santiago, Chile",
+                "year":         "2004 - 2005",
+                "titles":{
+                }
+            },
+            "edu3":{
+                "institution": "Guillermo Feliu Cruz Ex A-71 Secondary School",
+                "grade":       "Secondary Education",
+                "city":        "Santiago, Chile",
+                "year":         "2002 - 2003",
+                "titles":{
+                }
+            },
+            "edu4":{
+                "institution": "José Antonio Lecaros School",
+                "grade":       "Primary school",
+                "city":        "Santiago, Chile",
+                "year":         "2000 - 2001",
+                "titles":{
+                }
+            },
+            "edu5":{
+                "institution": "Lautaro School",
+                "grade":       "Primary school",
+                "city":        "Concepción, Chile",
+                "year":         "1996 - 1999",
+                "titles":{
+                }
+            },
+            "edu6":{
+                "institution": "Pacto Andino D-261 School",
+                "grade":       "Primary school",
+                "city":        "Santiago, Chile",
+                "year":         "1993 - 1995",
+                "titles":{
+                }
+            }
+        }
+    }
+}

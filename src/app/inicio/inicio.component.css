@@ -1,0 +1,30 @@
+/*Icon Animation*/
+.fab.fa-linkedin-in, .fa-github, .fa-facebook-f, .fa-twitter{
+	border-radius: 50%;
+    background:#007bff;
+    transition: 0.4s;
+}
+.fa-linkedin-in:hover{
+    background: #FFF;
+    color: rgb(52, 58, 64);
+    transition: 0.4s;
+    cursor:pointer;
+}
+.fa-facebook-f:hover{
+	background: #FFF;
+    color: rgb(52, 58, 64);
+    transition: 0.4s;
+    cursor:pointer;
+}
+.fa-github:hover{
+    background: #FFF;
+    color: rgb(52, 58, 64);
+    transition: 0.4s;
+    cursor:pointer;
+}
+.fa-twitter:hover{
+    background: #FFF;
+    color: rgb(52, 58, 64);
+    transition: 0.4s;
+    cursor:pointer;
+}
